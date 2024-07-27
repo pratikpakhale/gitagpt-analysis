@@ -1,0 +1,688 @@
+convID,messageID,message,Intent Identified,Correct/Incorrect,Entity Identified,Correct/Incorrect
+1,1-1,"Provide a summary of chapter 11","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 11.0
+shloka-verse: null",Correct
+1,1-2,"Show all shlokas from chapter 11","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 11.0
+shloka-verse: Shloka",Correct
+1,1-3,"No","",Incorrect,"",Correct
+1,1-4,"Thank you for the explanation","appreciate",Correct,"",Correct
+2,2-1,"Display verse 10.10 from chapter 10","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 10.0
+sloka-number: 10.1",Incorrect
+2,2-2,"Yes","shloka.search - yes",Correct,"",Correct
+2,2-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+2,2-4,"How do these verses explain divine grace?","Default Fallback Intent",Correct,"",Correct
+3,3-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+3,3-2,"Please show all verses of chapter 9","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 9.0
+shloka-verse: Shloka",Correct
+3,3-3,"Thank you","appreciate",Correct,"",Correct
+3,3-4,"Which verse describes Krishna's impartiality?","Default Fallback Intent",Correct,"",Correct
+4,4-1,"Give a summary of chapter 8","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 8.0
+shloka-verse: null",Correct
+4,4-2,"Show verse 8.8 from chapter 8","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 8.0
+sloka-number: 8.8",Correct
+4,4-3,"How does this verse explain constant meditation?","Default Fallback Intent",Correct,"",Correct
+5,5-1,"Display verse 7.7 of chapter 7","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 7.0
+sloka-number: 7.7",Correct
+5,5-2,"Yes","shloka.search - yes",Correct,"",Correct
+5,5-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+5,5-4,"How do these verses describe Krishna's supreme nature?","Default Fallback Intent",Correct,"",Correct
+6,6-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+6,6-2,"Please show verse 6.6 from chapter 6","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 6.0
+sloka-number: 6.6",Correct
+6,6-3,"No","shloka.search - no",Correct,"",Correct
+6,6-4,"I appreciate your assistance","appreciate",Correct,"",Correct
+7,7-1,"verse 5 of chapter 5","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 5.0
+sloka-number: 5.0",Correct
+7,7-2,"Can you share verse 0?","get.previous.sloka",Incorrect,"number: 0.0
+shloka-verse: Shloka",Incorrect
+7,7-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+7,7-4,"How does this verse describe the wise person?","Default Fallback Intent",Correct,"",Correct
+8,8-1,"Show all verses from chapter 4","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 4.0
+shloka-verse: Shloka",Correct
+8,8-2,"Thank you","appreciate",Correct,"",Correct
+8,8-3,"Which verse talks about the nature of action and inaction?","Default Fallback Intent",Correct,"",Correct
+9,9-1,"Provide a summary of chapter 3","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 3.0
+shloka-verse: null",Correct
+9,9-2,"How does this chapter explain karma yoga?","Default Fallback Intent",Correct,"",Correct
+10,10-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+10,10-2,"Could you show verse 1.4 of chapter 2?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 2.0
+sloka-number: 1.4",Correct
+10,10-3,"Yes","shloka.search - yes",Correct,"",Correct
+10,10-4,"What does Krishna say to Arjuna in this verse?","Default Fallback Intent",Correct,"",Correct
+11,11-1,"Give a summary of chapter 1","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 1.0
+shloka-verse: null",Correct
+11,11-2,"Show verse 1.1 from chapter 1","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 1.0
+sloka-number: 1.1",Correct
+11,11-3,"No","shloka.search - no",Correct,"",Correct
+11,11-4,"Thank you for the insights","appreciate",Correct,"",Correct
+12,12-1,"Display shloka 19  from chapter 18","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 18.0
+sloka-number: 19.0",Correct
+12,12-2,"Yes","shloka.search - yes",Correct,"",Correct
+12,12-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+12,12-4,"How do these verses explain the factors of action?","Default Fallback Intent",Correct,"",Correct
+13,13-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+13,13-2,"Thank you","appreciate",Correct,"",Correct
+13,13-3,"Please show all verses of chapter 17","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 17.0
+shloka-verse: Shloka",Correct
+13,13-4,"Which verse explains the three types of faith?","Default Fallback Intent",Correct,"",Correct
+14,14-1,"Provide a summary of chapter 16","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 16.0
+shloka-verse: null",Correct
+14,14-2,"Show verse 16.16 from chapter 16","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 16.0
+sloka-number: 16.16",Correct
+14,14-3,"How does this verse describe the results of desire?","Default Fallback Intent",Correct,"",Correct
+15,15-1,"Show verse 15.15 of chapter 15","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 15.0
+sloka-number: 15.15",Correct
+15,15-2,"Yes","shloka.search - yes",Correct,"",Correct
+15,15-3,"Display the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+15,15-4,"How do these verses describe Krishna's all-pervasiveness?","Default Fallback Intent",Correct,"",Correct
+16,16-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+16,16-2,"Please display verse 14.14 from chapter 14","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 14.0
+sloka-number: 14.14",Correct
+16,16-3,"No","shloka.search - no",Correct,"",Correct
+16,16-4,"I understand, thank you for your time","appreciate",Correct,"",Correct
+17,17-1,"verse 13 of chapter 13","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 13.0
+sloka-number: 13.0",Correct
+17,17-2,"Can you share verse 13.13?","get.previous.sloka",Incorrect,"number: 13.13
+shloka-verse: Shloka",Incorrect
+17,17-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+17,17-4,"How does this verse describe the knowable?","Default Fallback Intent",Correct,"",Correct
+18,18-1,"Show all verses from chapter 12","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 12.0
+shloka-verse: Shloka",Correct
+18,18-2,"Thank you","appreciate",Correct,"",Correct
+18,18-3,"Which verse compares personal and impersonal worship?","Default Fallback Intent",Correct,"",Correct
+19,19-1,"Give me a summary of chapter 11","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 11.0
+shloka-verse: null",Correct
+19,19-2,"How does this chapter describe the universal form?","Default Fallback Intent",Correct,"",Correct
+20,20-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+20,20-2,"Could you show verse 10.10 of chapter 10?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 10.0
+sloka-number: 10.1",Incorrect
+20,20-3,"Yes","shloka.search - yes",Correct,"",Correct
+20,20-4,"What does this verse say about devotion and wisdom?","Default Fallback Intent",Correct,"",Correct
+21,21-1,"Provide a summary of chapter 9","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 9.0
+shloka-verse: null",Correct
+21,21-2,"Show verse 9.9 from chapter 9","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 9.0
+sloka-number: ",Incorrect
+21,21-3,"No","shloka.search",Incorrect,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 9.0
+sloka-number: ",Incorrect
+21,21-4,"Thank you for the explanation","appreciate",Correct,"",Correct
+22,22-1,"Display versus 8.8 from chapter 8","chapter.summary",Incorrect,"chapter-adhyay: Chapter
+chapter-number: 8.8, 8.0
+shloka-verse: null",Incorrect
+22,22-2,"Yes","",Incorrect,"",Correct
+22,22-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+22,22-4,"How do these verses explain constant remembrance of the Divine?","Default Fallback Intent",Correct,"",Correct
+23,23-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+23,23-2,"Please show all verses of chapter 7","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 7.0
+shloka-verse: Shloka",Correct
+23,23-3,"Thank you","appreciate",Correct,"",Correct
+23,23-4,"Which verse describes Krishna's two natures?","Default Fallback Intent",Correct,"",Correct
+24,24-1,"Give a summary of chapter 6","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 6.0
+shloka-verse: null",Correct
+24,24-2,"Show verse 6.6 from chapter 6","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 6.0
+sloka-number: 6.6",Correct
+24,24-3,"How does this verse describe the controlled mind?","Default Fallback Intent",Correct,"",Correct
+25,25-1,"Display verse 5.5 of chapter 5","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 5.0
+sloka-number: 5.5",Correct
+25,25-2,"Yes","shloka.search - yes",Correct,"",Correct
+25,25-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+25,25-4,"How do these verses describe the enlightened person?","",Incorrect,"",Correct
+26,26-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+26,26-2,"Please show verse 4.4 from chapter 4","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 4.0
+sloka-number: 4.4",Correct
+26,26-3,"No","shloka.search - no",Correct,"",Correct
+26,26-4,"I appreciate your help","appreciate",Correct,"",Correct
+27,27-1,"verse 3 of chapter 3","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 3.0
+sloka-number: 3.0",Correct
+27,27-2,"Can you share verse 3.3?","get.previous.sloka",Incorrect,"number: 3.3
+shloka-verse: Shloka",Incorrect
+27,27-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+27,27-4,"How does this verse explain the two paths?","Default Fallback Intent",Correct,"",Correct
+28,28-1,"Show all verses from chapter 2","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 2.0
+shloka-verse: Shloka",Correct
+28,28-2,"Thank you","appreciate",Correct,"",Correct
+28,28-3,"Which verse introduces the concept of the soul?","Default Fallback Intent",Correct,"",Correct
+29,29-2,"How does this chapter set the scene for the Gita?","Default Fallback Intent",Correct,"",Correct
+30,30-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+30,30-2,"Could you show verse 18.18 of chapter 18?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 18.0
+sloka-number: 18.18",Correct
+30,30-3,"Yes","shloka.search - yes",Correct,"",Correct
+30,30-4,"What does this verse say about the constituents of action?","Default Fallback Intent",Correct,"",Correct
+31,31-1,"Give a summary of chapter 17","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 17.0
+shloka-verse: null",Correct
+31,31-2,"Show verse 17.17 from chapter 17","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 17.0
+sloka-number: 17.17",Correct
+31,31-3,"No","shloka.search - no",Correct,"",Correct
+31,31-4,"Thank you for the insights","appreciate",Correct,"",Correct
+32,32-1,"Display version 16.16 from chapter 16","chapter.summary",Incorrect,"chapter-adhyay: Chapter
+chapter-number: 16.16, 16.0
+shloka-verse: null",Incorrect
+32,32-2,"Yes","",Incorrect,"",Correct
+32,32-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+32,32-4,"How do these verses contrast divine and demonic qualities?","Default Fallback Intent",Correct,"",Correct
+33,33-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+33,33-2,"Please show all verses of chapter 15","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 15.0
+shloka-verse: Shloka",Correct
+33,33-3,"Thank you","appreciate",Correct,"",Correct
+33,33-4,"Which verse describes the supreme person?","Default Fallback Intent",Correct,"",Correct
+34,34-1,"Provide a summary of chapter 14","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 14.0
+shloka-verse: null",Correct
+34,34-2,"Show verse 14.14 from chapter 14","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 14.0
+sloka-number: 14.14",Correct
+34,34-3,"How does this verse explain transcendence of the gunas?","Default Fallback Intent",Correct,"",Correct
+35,35-1,"Show verse 13.13 of chapter 13","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 13.0
+sloka-number: 13.13",Correct
+35,35-2,"Yes","shloka.search - yes",Correct,"",Correct
+35,35-3,"Display the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+35,35-4,"How do these verses describe the knowable?","Default Fallback Intent",Correct,"",Correct
+36,36-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+36,36-2,"Please display verse 12.12 from chapter 12","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 12.0
+sloka-number: 12.12",Correct
+36,36-3,"No","shloka.search - no",Correct,"",Correct
+36,36-4,"I understand, thank you","appreciate",Correct,"",Correct
+37,37-1,"verse 11 of chapter 11","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 11.0
+sloka-number: 11.0",Correct
+37,37-2,"Can you share verse 11.11?","get.previous.sloka",Incorrect,"number: 11.11
+shloka-verse: Shloka",Incorrect
+37,37-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+37,37-4,"How does this verse describe the universal form?","Default Fallback Intent",Correct,"",Correct
+38,38-1,"Show all verses from chapter 10","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 10.0
+shloka-verse: Shloka",Correct
+38,38-2,"Thank you","appreciate",Correct,"",Correct
+38,38-3,"Which verse lists Krishna's divine manifestations?","Default Fallback Intent",Correct,"",Correct
+39,39-1,"Give me a summary of chapter 9","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 9.0
+shloka-verse: null",Correct
+39,39-2,"How does this chapter describe bhakti yoga?","Default Fallback Intent",Correct,"",Correct
+40,40-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+40,40-2,"Could you show verse 18 of chapter 8?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 8.0
+sloka-number: 18.0",Correct
+40,40-3,"Yes","shloka.search - yes",Correct,"",Correct
+40,40-4,"What does this verse say about constant meditation?","Default Fallback Intent",Correct,"",Correct
+41,41-1,"Provide a summary of chapter 7","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 7.0
+shloka-verse: null",Correct
+41,41-2,"Show verse 7.7 from chapter 7","chapter.all.sloka",Incorrect,"chapter-adhyay: Chapter
+chapter-number: 7.0
+shloka-verse: Shloka",Incorrect
+41,41-3,"No","Default Fallback Intent",Correct,"",Correct
+41,41-4,"Thank you for the explanation","appreciate",Correct,"",Correct
+42,42-1,"Display shloka 9999 from chapter 6","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 6.0
+sloka-number: 9999.0",Correct
+42,42-2,"Yes","shloka.search - yes",Correct,"",Correct
+42,42-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+42,42-4,"How do these verses describe the mind?","Default Fallback Intent",Correct,"",Correct
+43,43-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+43,43-2,"Please show all verses of chapter 5","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 5.0
+shloka-verse: Shloka",Correct
+43,43-3,"Thank you","appreciate",Correct,"",Correct
+43,43-4,"Which verse talks about equanimity?","Default Fallback Intent",Correct,"",Correct
+44,44-1,"Give a summary of chapter 4","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 4.0
+shloka-verse: null",Correct
+44,44-2,"Show verse 4 from chapter 4","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 4.0
+sloka-number: 4.0",Correct
+44,44-3,"How does this verse describe the nature of action?","Default Fallback Intent",Correct,"",Correct
+45,45-1,"Display verse 9 of chapter 3","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 3.0
+sloka-number: 9.0",Correct
+45,45-2,"Yes","shloka.search - yes",Correct,"",Correct
+45,45-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+45,45-4,"How do these verses explain karma yoga?","Default Fallback Intent",Correct,"",Correct
+46,46-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+46,46-2,"Please show verse 2.2 from chapter 2","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 2.0
+sloka-number: 2.2",Correct
+46,46-3,"No","shloka.search - no",Correct,"",Correct
+46,46-4,"I appreciate your assistance","appreciate",Correct,"",Correct
+47,47-1,"verse 1 of chapter 1","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 1.0
+sloka-number: 1.0",Correct
+47,47-2,"Can you share verse 1.1?","get.previous.sloka",Incorrect,"number: 1.1
+shloka-verse: Shloka",Incorrect
+47,47-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+47,47-4,"How does the Gita begin?","Default Welcome Intent",Incorrect,"person: [object Object]",Incorrect
+48,48-1,"Show all verses from chapter 18","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 18.0
+shloka-verse: Shloka",Correct
+48,48-2,"Thank you","appreciate",Correct,"",Correct
+48,48-3,"Which verse is considered the essence of the Gita?","Default Fallback Intent",Correct,"",Correct
+49,49-1,"Provide a summary of chapter 17","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 17.0
+shloka-verse: null",Correct
+49,49-2,"How does this chapter explain the three types of faith?","Default Fallback Intent",Correct,"",Correct
+50,50-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+50,50-2,"Could you show verse 16.16 of chapter 16?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 16.0
+sloka-number: 16.16",Correct
+50,50-3,"Yes","shloka.search - yes",Correct,"",Correct
+50,50-4,"What does this verse say about divine and demonic natures?","Default Fallback Intent",Correct,"",Correct
+51,51-1,"Give a summary of chapter 15","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 15.0
+shloka-verse: null",Correct
+51,51-2,"Show verse 15.15 from chapter 15","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 15.0
+sloka-number: 15.15",Correct
+51,51-3,"No","shloka.search - no",Correct,"",Correct
+51,51-4,"Thank you for the insights","appreciate",Correct,"",Correct
+52,52-1,"Display verse 14.14 from chapter 14","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 14.0
+sloka-number: 14.14",Correct
+52,52-2,"Yes","shloka.search - yes",Correct,"",Correct
+52,52-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+52,52-4,"How do these verses explain the three gunas?","Default Fallback Intent",Correct,"",Correct
+53,53-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+53,53-2,"Please show all verses of chapter 13","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 13.0
+shloka-verse: Shloka",Correct
+53,53-3,"Thank you","appreciate",Correct,"",Correct
+53,53-4,"Which verse defines the field and the knower of the field?","Default Fallback Intent",Correct,"",Correct
+54,54-1,"Provide a summary of chapter 12","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 12.0
+shloka-verse: null",Correct
+54,54-2,"Show verse 12.12 from chapter 12","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 12.0
+sloka-number: 12.12",Correct
+54,54-3,"How does this verse describe the ideal devotee?","Default Fallback Intent",Correct,"",Correct
+55,55-1,"Show verse 11.11 of chapter 11","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 11.0
+sloka-number: 11.11",Correct
+55,55-2,"Yes","shloka.search - yes",Correct,"",Correct
+55,55-3,"Display the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+55,55-4,"How do these verses describe the universal form?","Default Fallback Intent",Correct,"",Correct
+56,56-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+56,56-2,"Please display verse 10.10 from chapter 10","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 10.0
+sloka-number: 10.1",Incorrect
+56,56-3,"No","shloka.search - no",Correct,"",Correct
+56,56-4,"I understand, thank you for your time","appreciate",Correct,"",Correct
+57,57-1,"verse 9 of chapter 9","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 9.0
+sloka-number: 9.0",Correct
+57,57-2,"Can you share verse 9.9?","get.previous.sloka",Incorrect,"number: 9.9
+shloka-verse: Shloka",Incorrect
+57,57-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+57,57-4,"How does this verse describe devotion?","Default Fallback Intent",Correct,"",Correct
+58,58-1,"Show all verses from chapter 8","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 8.0
+shloka-verse: Shloka",Correct
+58,58-2,"Thank you","appreciate",Correct,"",Correct
+58,58-3,"Which verse talks about remembering Krishna at the time of death?","Default Fallback Intent",Correct,"",Correct
+59,59-1,"Give me a summary of chapter 7","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 7.0
+shloka-verse: null",Correct
+59,59-2,"How does this chapter describe Krishna's divine nature?","Default Fallback Intent",Correct,"",Correct
+60,60-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+60,60-2,"Could you show verse 6.6 of chapter 6?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 6.0
+sloka-number: 6.6",Correct
+60,60-3,"Yes","shloka.search - yes",Correct,"",Correct
+60,60-4,"What does this verse say about self-control?","Default Fallback Intent",Correct,"",Correct
+61,61-1,"Provide a summary of chapter 5","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 5.0
+shloka-verse: null",Correct
+61,61-2,"Show verse 5.5 from chapter 5","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 5.0
+sloka-number: 5.5",Correct
+61,61-3,"No","shloka.search - no",Correct,"",Correct
+61,61-4,"Thank you for the explanation","appreciate",Correct,"",Correct
+62,62-1,"Display verse 4.4 from chapter 4","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 4.0
+sloka-number: 4.4",Correct
+62,62-2,"Yes","shloka.search - yes",Correct,"",Correct
+62,62-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+62,62-4,"How do these verses explain karma yoga?","Default Fallback Intent",Correct,"",Correct
+63,63-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+63,63-2,"Please show all verses of chapter 3","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 3.0
+shloka-verse: Shloka",Correct
+63,63-3,"Thank you","appreciate",Correct,"",Correct
+63,63-4,"Which verse talks about performing one's duty?","Default Fallback Intent",Correct,"",Correct
+64,64-1,"Give a summary of chapter 2","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 2.0
+shloka-verse: null",Correct
+64,64-2,"Show verse 2.2 from chapter 2","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 2.0
+sloka-number: 2.2",Correct
+64,64-3,"How does this verse set the tone for the chapter?","Default Fallback Intent",Correct,"",Correct
+65,65-1,"Display verse 1.19 of chapter 1","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 1.0
+sloka-number: 1.19",Correct
+65,65-2,"Yes","shloka.search - yes",Correct,"",Correct
+65,65-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+65,65-4,"What's happening in these verses?","Default Fallback Intent",Correct,"",Correct
+66,66-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+66,66-2,"Please show verse 18.18 from chapter 18","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 18.0
+sloka-number: 18.18",Correct
+66,66-3,"No","shloka.search - no",Correct,"",Correct
+66,66-4,"I appreciate your help","appreciate",Correct,"",Correct
+67,67-1,"shloka 9 of chapter 17","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 17.0
+sloka-number: 9.0",Correct
+67,67-2,"Can you share verse 17.17?","get.previous.sloka",Incorrect,"number: 17.17
+shloka-verse: Shloka",Incorrect
+67,67-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+67,67-4,"How does this verse relate to faith?","Default Fallback Intent",Correct,"",Correct
+68,68-1,"Show all verses from chapter 16","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 16.0
+shloka-verse: Shloka",Correct
+68,68-2,"Thank you","appreciate",Correct,"",Correct
+68,68-3,"Which verse discusses divine qualities?","Default Fallback Intent",Correct,"",Correct
+69,69-1,"Provide a summary of chapter 15","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 15.0
+shloka-verse: null",Correct
+69,69-2,"How does this chapter relate to the cosmic tree?","Default Fallback Intent",Correct,"",Correct
+70,70-1,"Could you display verse 14.14 of chapter 14?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 14.0
+sloka-number: 14.14",Correct
+70,70-2,"Yes","shloka.search - yes",Correct,"",Correct
+70,70-3,"What's the significance of this verse?","Default Fallback Intent",Correct,"",Correct
+71,71-1,"Give a summary of chapter 13","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 13.0
+shloka-verse: null",Correct
+71,71-2,"Show verse 8 from chapter 13","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 13.0
+sloka-number: 8.0",Correct
+71,71-3,"No","shloka.search - no",Correct,"",Correct
+71,71-4,"Thank you for explaining","appreciate",Correct,"",Correct
+72,72-1,"Display verse 100 from chapter 12","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 12.0
+sloka-number: 100.0",Correct
+72,72-2,"Yes","shloka.search - yes",Correct,"",Correct
+72,72-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+72,72-4,"What's the theme of these verses?","Default Fallback Intent",Correct,"",Correct
+73,73-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+73,73-2,"Please show all verses of chapter 11","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 11.0
+shloka-verse: Shloka",Correct
+73,73-3,"Thank you","appreciate",Correct,"",Correct
+73,73-4,"Which verse describes Arjuna's reaction to the universal form?","Default Fallback Intent",Correct,"",Correct
+74,74-1,"Provide a summary of chapter 10","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 10.0
+shloka-verse: null",Correct
+74,74-2,"Show verse xx from chapter 10","chapter.all.sloka",Incorrect,"chapter-adhyay: Chapter
+chapter-number: 10.0
+shloka-verse: Shloka",Correct
+74,74-3,"How does this verse relate to divine manifestations?","Default Fallback Intent",Correct,"",Correct
+75,75-1,"Show verse 9.9 of chapter 9","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 9.0
+sloka-number: 9.9",Correct
+75,75-2,"Yes","shloka.search - yes",Correct,"",Correct
+75,75-3,"Display the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+75,75-4,"How are these verses connected?","Default Fallback Intent",Correct,"",Correct
+76,76-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+76,76-2,"Please display verse 18 from chapter 8","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 8.0
+sloka-number: 18.0",Correct
+76,76-3,"No","shloka.search - no",Correct,"",Correct
+76,76-4,"I understand, thank you","appreciate",Correct,"",Correct
+77,77-1,"verse 8 of chapter 7","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 7.0
+sloka-number: 8.0",Correct
+77,77-2,"Can you share verse 7.8?","get.previous.sloka",Incorrect,"number: 7.8
+shloka-verse: Shloka",Incorrect
+77,77-3,"Yes","get.previous.sloka - yes",Correct,"",Correct
+77,77-4,"How does Krishna describe himself here?","Default Fallback Intent",Correct,"",Correct
+78,78-1,"Show all verses from chapter 6","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 6.0
+shloka-verse: Shloka",Correct
+78,78-2,"Thank you","appreciate",Correct,"",Correct
+78,78-3,"Which verse talks about meditation?","Default Fallback Intent",Correct,"",Correct
+79,79-1,"Give me a summary of chapter 5","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 5.0
+shloka-verse: null",Correct
+79,79-2,"How does this chapter discuss karma?","Default Fallback Intent",Correct,"",Correct
+80,80-1,"Could you show verse 4.4 of chapter 4?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 4.0
+sloka-number: 4.4",Correct
+80,80-2,"Yes","shloka.search - yes",Correct,"",Correct
+80,80-3,"What's the main teaching here?","Default Fallback Intent",Correct,"",Correct
+81,81-1,"Provide a summary of chapter 3","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 3.0
+shloka-verse: null",Correct
+81,81-2,"Display verse 3.3 from chapter 3","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 3.0
+sloka-number: 3.3",Correct
+81,81-3,"No","shloka.search - no",Correct,"",Correct
+81,81-4,"Thank you for the information","appreciate",Correct,"",Correct
+82,82-1,"Display verse 2.20 from chapter 2","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 2.0
+sloka-number: 2.2",Incorrect
+82,82-2,"Yes","shloka.search - yes",Correct,"",Correct
+82,82-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+82,82-4,"How do these verses relate?","Default Fallback Intent",Correct,"",Correct
+83,83-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+83,83-2,"Please show all verses of chapter 1","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 1.0
+shloka-verse: Shloka",Correct
+83,83-3,"Thank you","appreciate",Correct,"",Correct
+83,83-4,"Which verse introduces the main conflict?","Default Fallback Intent",Correct,"",Correct
+84,84-1,"Provide a summary of chapter 18","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 18.0
+shloka-verse: null",Correct
+84,84-2,"Display verse 20 from chapter 18","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 18.0
+sloka-number: 20.0",Correct
+84,84-3,"How does this verse summarize the chapter?","Default Fallback Intent",Correct,"",Correct
+85,85-1,"Display verse 7 of chapter 17","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 17.0
+sloka-number: 7.0",Correct
+85,85-2,"Yes","shloka.search - yes",Correct,"",Correct
+85,85-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+85,85-4,"What's the connection between these verses?","Default Fallback Intent",Correct,"",Correct
+86,86-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+86,86-2,"Please show verse 16.1 from chapter 16","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 16.0
+sloka-number: 16.1",Correct
+86,86-3,"No","shloka.search - no",Correct,"",Correct
+86,86-4,"Thank you anyway","appreciate",Correct,"",Correct
+87,87-3,"Can you explain its context?","Default Fallback Intent",Correct,"",Correct
+87,87-4,"Yes","get.previous.sloka - yes",Correct,"",Correct
+88,88-1,"Display all verses of chapter 14","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 14.0
+shloka-verse: Shloka",Correct
+88,88-2,"Thank you","appreciate",Correct,"",Correct
+88,88-3,"Which verse is most significant?","Default Fallback Intent",Correct,"",Correct
+89,89-1,"Provide a summary of chapter 13","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 13.0
+shloka-verse: null",Correct
+89,89-2,"How does this chapter relate to the previous one?","get.previous.chapter.summary",Correct,"chapter-adhyay: Chapter
+number: 1.0",Incorrect
+90,90-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+90,90-2,"Could you show verse 12.2 from chapter 12?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 12.0
+sloka-number: 12.2",Correct
+90,90-3,"Yes","shloka.search - yes",Correct,"",Correct
+90,90-4,"What's the key message here?","Default Fallback Intent",Correct,"",Correct
+91,91-1,"Provide a summary of chapter 11","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 11.0
+shloka-verse: null",Correct
+91,91-2,"Display verse 11.18 from chapter 11","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 11.0
+sloka-number: 11.18",Correct
+91,91-3,"No","shloka.search - no",Correct,"",Correct
+91,91-4,"I see, thank you","Default Welcome Intent",Incorrect,"person: null",Incorrect
+92,92-1,"Display verse 15 from chapter 10","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 10.0
+sloka-number: 15.0",Correct
+92,92-2,"Yes","shloka.search - yes",Correct,"",Correct
+92,92-3,"Show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+92,92-4,"Show the following verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+92,92-5,"Thank you","appreciate",Correct,"",Correct
+93,93-1,"Namaste","Default Fallback Intent",Correct,"",Correct
+93,93-2,"Please show all verses of chapter 9","chapter.all.sloka",Correct,"chapter-adhyay: Chapter
+chapter-number: 9.0
+shloka-verse: Shloka",Correct
+93,93-3,"Thank you","appreciate",Correct,"",Correct
+93,93-4,"That was informative","Default Fallback Intent",Correct,"",Correct
+94,94-1,"Provide a summary of chapter 8","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 8.0
+shloka-verse: null",Correct
+94,94-2,"Display verse 8.1 from chapter 8","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 8.0
+sloka-number: 8.1",Correct
+94,94-3,"How does this relate to the summary?","chapter.summary",Incorrect,"chapter-adhyay: 
+chapter-number: 
+shloka-verse: null",Incorrect
+95,95-1,"Display verse 7.7 of chapter 7","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 7.0
+sloka-number: 7.7",Correct
+95,95-2,"Yes","shloka.search - yes",Correct,"",Correct
+95,95-3,"Show the previous verse","get.previous.sloka",Correct,"number: null
+shloka-verse: Shloka",Correct
+95,95-4,"What does this mean?","Default Fallback Intent",Correct,"",Correct
+96,96-1,"Jai Shri Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+96,96-2,"Please show shloka 6.1 from chapter 6","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 6.0
+sloka-number: 6.1",Correct
+96,96-3,"No","shloka.search - no",Correct,"",Correct
+96,96-4,"Thank you","appreciate",Correct,"",Correct
+96,96-5,"Goodbye","Default Fallback Intent",Correct,"",Correct
+97,97-1,"verse 4 of chapter 5","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 5.0
+sloka-number: 4.0",Correct
+97,97-2,"Would you share verse 5.4?","get.previous.sloka",Incorrect,"number: 5.4
+shloka-verse: Shloka",Incorrect
+97,97-3,"Can you explain its meaning?","Default Fallback Intent",Correct,"",Correct
+97,97-4,"Yes","get.previous.sloka - yes",Correct,"",Correct
+98,98-1,"Display all verses of chapter 3","shloka.search",Incorrect,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 3.0
+sloka-number: ",Incorrect
+98,98-2,"Thank you for sharing","shloka.search",Incorrect,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 3.0
+sloka-number: ",Incorrect
+99,99-1,"Provide a summary of chapter 2","chapter.summary",Correct,"chapter-adhyay: Chapter
+chapter-number: 2.0
+shloka-verse: null",Correct
+99,99-2,"That's interesting, could you explain more?","Default Fallback Intent",Correct,"",Correct
+100,100-1,"Hare Krishna!","Default Welcome Intent",Correct,"person: [object Object]",Incorrect
+100,100-2,"Could you show verse 6 from chapter 1?","shloka.search",Correct,"Chapter-adhyay: Chapter
+Shloka-verse: Shloka
+chapter-number: 1.0
+sloka-number: 6.0",Correct
+100,100-3,"Yes","shloka.search - yes",Correct,"",Correct
+100,100-4,"Please show the next verse","get.next.sloka",Correct,"shloka-verse: Shloka",Correct
+100,100-5,"Thank you","appreciate",Correct,"",Correct
+

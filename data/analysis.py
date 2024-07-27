@@ -104,7 +104,7 @@ def plot_conversation_length(data):
     plt.close()
 
 def main():
-    headers, data = load_data('./full.csv')
+    headers, data = load_data('./results.csv')
 
     plot_accuracy(data)
     plot_intent_distribution(data)

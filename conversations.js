@@ -1,7 +1,7 @@
 const conversations = {
   conv001: [
     'Hare Krishna!',
-    'Could you show verse 1.1 from chapter 1?',
+    'Could you show verse 6 from chapter 1?',
     'Yes',
     'Please show the next verse',
     'Thank you',
@@ -19,7 +19,7 @@ const conversations = {
   ],
   conv005: [
     'Jai Shri Krishna!',
-    'Please show verse 6.1 from chapter 6',
+    'Please show shloka 6.1 from chapter 6',
     'No',
     'Thank you',
     'Goodbye',
@@ -42,7 +42,7 @@ const conversations = {
     'That was informative',
   ],
   conv009: [
-    'Display verse 10.10 from chapter 10',
+    'Display verse 15 from chapter 10',
     'Yes',
     'Show the next verse',
     'Show the following verse',
@@ -50,13 +50,13 @@ const conversations = {
   ],
   conv010: [
     'Provide a summary of chapter 11',
-    'Display verse 11.11 from chapter 11',
+    'Display verse 11.18 from chapter 11',
     'No',
     'I see, thank you',
   ],
   conv011: [
     'Hare Krishna!',
-    'Could you show verse 12.12 from chapter 12?',
+    'Could you show verse 12.2 from chapter 12?',
     'Yes',
     "What's the key message here?",
   ],
@@ -77,19 +77,19 @@ const conversations = {
   ],
   conv015: [
     'Jai Shri Krishna!',
-    'Please show verse 16.16 from chapter 16',
+    'Please show verse 16.1 from chapter 16',
     'No',
     'Thank you anyway',
   ],
   conv016: [
-    'Display verse 17.17 of chapter 17',
+    'Display verse 7 of chapter 17',
     'Yes',
     'Show the next verse',
     "What's the connection between these verses?",
   ],
   conv017: [
     'Provide a summary of chapter 18',
-    'Display verse 18.18 from chapter 18',
+    'Display verse 20 from chapter 18',
     'How does this verse summarize the chapter?',
   ],
   conv018: [
@@ -125,14 +125,14 @@ const conversations = {
     'Which verse talks about meditation?',
   ],
   conv024: [
-    'verse 7 of chapter 7',
-    'Can you share verse 7.7?',
+    'verse 8 of chapter 7',
+    'Can you share verse 7.8?',
     'Yes',
     'How does Krishna describe himself here?',
   ],
   conv025: [
     'Jai Shri Krishna!',
-    'Please display verse 8.8 from chapter 8',
+    'Please display verse 18 from chapter 8',
     'No',
     'I understand, thank you',
   ],
@@ -144,7 +144,7 @@ const conversations = {
   ],
   conv027: [
     'Provide a summary of chapter 10',
-    'Show verse 10.10 from chapter 10',
+    'Show verse xx from chapter 10',
     'How does this verse relate to divine manifestations?',
   ],
   conv028: [
@@ -154,14 +154,14 @@ const conversations = {
     "Which verse describes Arjuna's reaction to the universal form?",
   ],
   conv029: [
-    'Display verse 12.12 from chapter 12',
+    'Display verse 100 from chapter 12',
     'Yes',
     'Show the previous verse',
     "What's the theme of these verses?",
   ],
   conv030: [
     'Give a summary of chapter 13',
-    'Show verse 13.13 from chapter 13',
+    'Show verse 8 from chapter 13',
     'No',
     'Thank you for explaining',
   ],
@@ -180,7 +180,7 @@ const conversations = {
     'Which verse discusses divine qualities?',
   ],
   conv034: [
-    'verse 17 of chapter 17',
+    'shloka 9 of chapter 17',
     'Can you share verse 17.17?',
     'Yes',
     'How does this verse relate to faith?',
@@ -304,14 +304,14 @@ const conversations = {
     'I appreciate your assistance',
   ],
   conv056: [
-    'Display verse 3.3 of chapter 3',
+    'Display verse 9 of chapter 3',
     'Yes',
     'Show the next verse',
     'How do these verses explain karma yoga?',
   ],
   conv057: [
     'Give a summary of chapter 4',
-    'Show verse 4.4 from chapter 4',
+    'Show verse 4 from chapter 4',
     'How does this verse describe the nature of action?',
   ],
   conv058: [
@@ -321,7 +321,7 @@ const conversations = {
     'Which verse talks about equanimity?',
   ],
   conv059: [
-    'Display verse 6.6 from chapter 6',
+    'Display shloka 9999 from chapter 6',
     'Yes',
     'Show the previous verse',
     'How do these verses describe the mind?',
@@ -334,7 +334,7 @@ const conversations = {
   ],
   conv061: [
     'Hare Krishna!',
-    'Could you show verse 8.8 of chapter 8?',
+    'Could you show verse 18 of chapter 8?',
     'Yes',
     'What does this verse say about constant meditation?',
   ],
@@ -489,7 +489,7 @@ const conversations = {
     'Which verse explains the three types of faith?',
   ],
   conv089: [
-    'Display verse 18.18 from chapter 18',
+    'Display shloka 19  from chapter 18',
     'Yes',
     'Show the previous verse',
     'How do these verses explain the factors of action?',
@@ -502,7 +502,7 @@ const conversations = {
   ],
   conv091: [
     'Hare Krishna!',
-    'Could you show verse 2.2 of chapter 2?',
+    'Could you show verse 1.4 of chapter 2?',
     'Yes',
     'What does Krishna say to Arjuna in this verse?',
   ],
@@ -517,7 +517,7 @@ const conversations = {
   ],
   conv094: [
     'verse 5 of chapter 5',
-    'Can you share verse 5.5?',
+    'Can you share verse 0?',
     'Yes',
     'How does this verse describe the wise person?',
   ],
@@ -552,7 +552,7 @@ const conversations = {
   ],
   conv100: [
     'Provide a summary of chapter 11',
-    'Show verse 11.11 from chapter 11',
+    'Show all shlokas from chapter 11',
     'No',
     'Thank you for the explanation',
   ],
